@@ -37,4 +37,4 @@ This is a responsive e-commerce frontend application built with Next.js, TypeScr
 - Next.js
 - TypeScript
 - Tailwind CSS
-- 
+  
