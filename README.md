@@ -1,40 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-## Getting Started
+ Whatbytes E-commerce Frontend
 
-First, run the development server:
+This is a responsive e-commerce frontend application built with Next.js, TypeScript, and Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-> Live 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[https://your-vercel-app-url.vercel.app](https://whatbytes-app-px3v.vercel.app/)
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+-> Features
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+ Home Page (/)
+- Header with logo, search bar, cart icon, and profile
+- Sidebar filters: category (checkbox), price slider
+- Responsive product grid (1–3 columns)
+- Product cards with image, title, price, add to cart, and optional rating
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+ Product Detail Page (/product/[id])
+- Image carousel
+- Title, price, description, category
+- Quantity selector and Add to Cart button
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Cart Page (/cart)
+- List of cart items
+- Quantity controls and remove item option
+- Total price summary
 
-## Learn More
+ Logic Implemented
+- Filtering by category and price
+- Search filtering
+- URL-based filters
+- Client-side cart state using React Context
+- Cart state persisted in localStorage
+- Dynamic routing for product pages
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+-> Tech Stack
+- Next.js
+- TypeScript
+- Tailwind CSS
+- 
